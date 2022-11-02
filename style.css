@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  font-family: monospace;
+  color: blueviolet;
+  font-size: revert;
+  line-height: initial;
+  background-image:url(images/wallpaper.jpg);
+}
+h1 {
+  font-size: 28px;
+  color: blueviolet;
+  font-family: cursive;
+  line-height: 1;
+}
+h2 {
+  color: blueviolet;
+  font-family: cursive;
+  font-size: 24px;
+  line-height: 1;
+}
+a {
+  color: rgb(68, 236, 13);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
+}
+a:hover {
+  background-color: gold;
+}
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color : white;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px purple;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;x@
+  background: linear-gradient(blue, 10%, pink);
+  }
+
+img {
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
